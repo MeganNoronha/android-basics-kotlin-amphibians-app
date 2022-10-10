@@ -2,7 +2,9 @@ Amphibians - Starter Code
 ==================================
 
 Starter code for the fourth independent project for Android Basics in Kotlin. This project pairs
-with Unit 4 of Android Basics in Kotlin
+with Unit 4 of Android Basics in Kotlin. 
+
+Testing git commit
 
 Introduction
 ------------
