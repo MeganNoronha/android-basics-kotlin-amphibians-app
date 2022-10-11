@@ -44,7 +44,6 @@ class AmphibianListFragment : Fragment() {
             findNavController()
                 .navigate(R.id.action_amphibianListFragment_to_amphibianDetailFragment)
         })
-
         viewModel.getAmphibianList()
 
         // Inflate the layout for this fragment
