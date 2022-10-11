@@ -60,7 +60,7 @@ open class BaseTest {
     }
 
     fun waitForView(matcher: Matcher<View>,
-                    timeoutMillis: Int = 5000,
+                    timeoutMillis: Int = 10000,
                     attemptTimeoutMillis: Long = 100
     ): ViewInteraction {
         val maxAttempts = timeoutMillis / attemptTimeoutMillis.toInt()
