@@ -35,7 +35,6 @@ class AmphibianListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentAmphibianListBinding.inflate(inflater)
-        // TODO: call the view model method that calls the amphibians api
 
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
@@ -44,6 +43,7 @@ class AmphibianListFragment : Fragment() {
             findNavController()
                 .navigate(R.id.action_amphibianListFragment_to_amphibianDetailFragment)
         })
+        // Calls the view model method that calls the amphibians api
         viewModel.getAmphibianList()
 
         // Inflate the layout for this fragment
